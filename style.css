@@ -1,0 +1,155 @@
+*{
+    /*border: 2px red solid;*/
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home img{
+    width: 100px;
+    margin-right: 20px;
+    
+}
+
+.home{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .home img{
+    margin: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-family:  sans-serif;
+}
+
+.navlinks{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.body1{
+    display: flex;
+    background-color: #1F2937;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.body1 button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.body1 div h1{
+    color: white;
+    width: 300px;
+}
+
+.body1 div h4{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.832);
+    width:400px
+}
+
+.body1 div{
+    margin: 30px;
+}
+
+.body2{
+    font-family: sans-serif;
+}
+
+.body2 h2,.body2 .body21 div p{
+    text-align: center;
+}
+
+.body21{
+    display: flex;
+    justify-content: center;
+}
+
+.body2 .body21 div img{
+    border-radius: 20px;
+}
+
+.body2 .body21 div{
+    text-align: center;
+    margin: 10px;
+}
+
+.body2 .body21 div p{
+    width: 200px;
+}
+
+.body3{
+    background-color: rgb(235, 235, 235);
+    padding: 20px 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body3 p{
+    font-style: italic;
+    color: #3c3c3cd4;
+    text-align: justify;
+    font-size: 20px;
+}
+.body3 .auth{
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+
+.body4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3882F6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px 300px;
+    border-radius: 20px;
+}
+
+.body4 .body42 button{
+    background-color: #3882F6;
+    color: white;
+    border: 3px white solid;
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.body4 .body41 .top{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: -10px;}
+
+.body4 .body41 .bottom{
+    font-family: sans-serif;
+    color: rgb(221, 221, 221);
+}
+
+.body5{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
